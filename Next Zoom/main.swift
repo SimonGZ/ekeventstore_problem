@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import EventKit
 
-print("Hello, World!")
-
+print("Before EKEvent")
+var store = EKEventStore()
+print("After EKEvent")

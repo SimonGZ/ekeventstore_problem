@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Next Zoom accesses upcoming events to find your next Zoom meeting link.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Nezt Zoom accesses upcoming events to find your next Zoom meeting link and events may contain contact data.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Next Zoom access upcoming reminders to find your next Zoom meeting link.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Next Zoom accesses upcoming events to find your next Zoom meeting link which can expose location data.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Next Zoom accesses upcoming events to find your next Zoom meeting link which can expose location data.</string>
+</dict>
+</plist>

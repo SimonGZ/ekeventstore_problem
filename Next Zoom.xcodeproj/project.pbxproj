@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		89CCB0BA26F3E3CD0007AE5C /* Next Zoom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Next Zoom"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CCB0BA26F3E3CD0007AE5C /* nextzoom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nextzoom; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CCB0BD26F3E3CD0007AE5C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		89CCB0C426F3E41F0007AE5C /* Next Zoom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Next Zoom.entitlements"; sourceTree = "<group>"; };
+		89CCB0C526F54D520007AE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,7 @@
 		89CCB0BB26F3E3CD0007AE5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89CCB0BA26F3E3CD0007AE5C /* Next Zoom */,
+				89CCB0BA26F3E3CD0007AE5C /* nextzoom */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +59,8 @@
 		89CCB0BC26F3E3CD0007AE5C /* Next Zoom */ = {
 			isa = PBXGroup;
 			children = (
+				89CCB0C426F3E41F0007AE5C /* Next Zoom.entitlements */,
+				89CCB0C526F54D520007AE5C /* Info.plist */,
 				89CCB0BD26F3E3CD0007AE5C /* main.swift */,
 			);
 			path = "Next Zoom";
@@ -79,7 +83,7 @@
 			);
 			name = "Next Zoom";
 			productName = "Next Zoom";
-			productReference = 89CCB0BA26F3E3CD0007AE5C /* Next Zoom */;
+			productReference = 89CCB0BA26F3E3CD0007AE5C /* nextzoom */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -244,10 +248,15 @@
 		89CCB0C226F3E3CD0007AE5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Next Zoom/Next Zoom.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEVELOPMENT_TEAM = 874XUFNL8L;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/Next Zoom/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonganz.next-zoom";
+				PRODUCT_NAME = nextzoom;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -255,10 +264,15 @@
 		89CCB0C326F3E3CD0007AE5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Next Zoom/Next Zoom.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEVELOPMENT_TEAM = 874XUFNL8L;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/Next Zoom/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonganz.next-zoom";
+				PRODUCT_NAME = nextzoom;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
